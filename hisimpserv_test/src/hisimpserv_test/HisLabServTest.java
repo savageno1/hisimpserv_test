@@ -9,15 +9,17 @@ import org.json.JSONObject;
 public class HisLabServTest {
 	// 接口地址
 	//public static String STR_URL = "http://59.56.176.10:8082/hisimpserv/lab"; // 公网测试
-	//public static String STR_URL = "http://192.168.1.28:8081/hisimpserv/lab"; //本机测试
+	//	public static String STR_URL = "http://192.168.1.28:8084/hisimpserv/lab"; //本机测试
 	//public static String STR_URL = "http://10.10.1.101:8082/hisimpserv/lab"; //政务网测试
 	public static String STR_URL = "http://120.26.73.248:8084/hisimpserv/lab"; //海南正式
 	//	// 申请检验的医疗机构代号
 	//	public static String STR_CHOSCODE_APPLY = "46903001";
 	// 受理检验医疗机构代号
-	public static String STR_CHOSCODE_ACPT = "460106004";
+	//	public static String STR_CHOSCODE_ACPT = "460106004";//妇婴
+	public static String STR_CHOSCODE_ACPT = "460106002";//肿瘤
 	// 医疗机构校验码
-	public static String STR_CHECKCODE = "15805CA8C364EA76E2757634F36A4556";
+	//	public static String STR_CHECKCODE = "15805CA8C364EA76E2757634F36A4556";//妇婴
+	public static String STR_CHECKCODE = "0765C7FBC8D24F9E0A4DEE4A0650ED7B";//肿瘤
 	// 数据类型
 	public static String STR_DATATYPE = "JSON";
 	// 测试用条码号
