@@ -51,7 +51,7 @@ public class HisLabServTest {
 		try {
 			for (int i = 0; i < 3; i++) {
 				String strTmh = ARRAY_STR_TMH[i];
-				System.out.println("--------------------RLA读取条码[" + strTmh + "]数据测试开始：--------------------");
+				System.out.println("--------------------RLA读取条码[" + strTmh + "]数据测试开始：---------------------");
 				//业务参数
 				JSONObject joParamData = new JSONObject();
 				joParamData.put("tmh", strTmh);
