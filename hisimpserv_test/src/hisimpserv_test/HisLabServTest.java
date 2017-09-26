@@ -23,11 +23,13 @@ public class HisLabServTest {
 	// 数据类型
 	public static String STR_DATATYPE = "JSON";
 	// 测试用条码号
-	public static String[] ARRAY_STR_TMH = { "168862799" };
+	//public static String[] ARRAY_STR_TMH = { "168862990" };
+	public static String[] ARRAY_STR_TMH = { "X1008001", "X1008002" };
 	// 测试用检查结果项目编号
 	public static String[] ARRAY_STR_XMBH = { "M2,TT", "M2,PT" };
 
 	public static void main(String[] args) {
+		//		System.out.println("sssssssss");
 		// 读取报告范例
 		RLASample();
 		// 写入结果范例
